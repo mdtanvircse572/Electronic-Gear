@@ -11,9 +11,9 @@
     left: 25%;
     top: 38%;
   }
-  /* .popular-main {
+  .popular-main {
     grid-template-columns: repeat(2, 1fr);
-  } */
+  }
 }
 
 /* smaller device */
@@ -37,7 +37,7 @@
     left: 35%;
     top: 40%;
   }
-  /* .popular-main{
+  .popular-main{
     grid-template-columns: repeat(1, 1fr);
-  } */
+  }
 }
