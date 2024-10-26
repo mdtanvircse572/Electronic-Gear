@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* navbar css styles start */
+.navbar-wraper{
+    background-color: #475569;
+}
+.navbar-main{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+.nav-menu-btn{
+    background: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.nav-hamberger-menu{
+    display: none;
+}
+/* navbar css styles End */
+/* banner css start here */
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid steelblue; */
+}
+.banner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.banner-childs{
+    width: 47%;
+    position: relative;
+}
+.banner-childs img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fifty-off{
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    width: max-content;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.banner-btn{
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* banner css end here */
+/* popilar srction start  */
+.popular {
+    margin: 30px auto;
+    max-width: 1200px;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.popular-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.card{
+    background: bisque;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(70, 131, 180, 0.21);
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+.card-img img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    max-width: fit-content;
+    max-height: 19rem;
+}
+.card-content > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers items vertically */
+    padding: 2px;
+}
+
+/* .popular-main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card{
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.526);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img{
+    height: 250px;
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 10px;   
+} */
+/* popilar srction end  */
